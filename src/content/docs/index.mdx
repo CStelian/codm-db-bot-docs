@@ -7,11 +7,65 @@ hero:
   image:
     file: ../../assets/codm-logo.png
   actions:
-    - text: Commands List
-      link: /commands/list
-      icon: right-arrow
-      variant: primary
-    - text: Learn More
-      link: https://www.codmdb.com/bot
+    - text: Add to your server
+      link: https://discord.com/oauth2/authorize?client_id=1215645323544756274&scope=bot%20applications.commands&permissions=0
       icon: external
+      variant: primary
+    - text: Support
+      link: https://discord.gg/3RrGsMhb37
+      icon: discord
+      variant: secondary
 ---
+
+import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components'
+
+## Features
+
+<CardGrid>
+
+  <Card title="Weapons" icon="seti:default">
+    Learn more about the weapons in the game.
+  </Card>
+
+  <Card title="Secondaries" icon="seti:default">
+    Learn more about the secondary weapons in the game.
+  </Card>
+
+  <Card title="Modes" icon="warning">
+    Learn more about the modes in the game. (Coming soon)
+  </Card>
+
+  <Card title="Perks" icon="warning">
+    Learn more about the perks in the game. (Coming soon)
+  </Card>
+
+  <Card title="Maps" icon="warning">
+    Learn more about the maps in the game. (Coming soon)
+  </Card>
+
+  <Card title="Scorestreaks" icon="warning">
+    Learn more about the scorestreaks in the game. (Coming soon)
+  </Card>
+
+  <Card title="Operator Skills" icon="warning">
+    Learn more about the operator skills in the game. (Coming soon)
+  </Card>
+
+  <Card title="Operator Classes" icon="warning">
+    Learn more about the operator classes available in Battle Royale in the game. (Coming soon)
+  </Card>
+
+  <Card title="Characters" icon="warning">
+    Learn more about the characters in the game. (Coming soon)
+  </Card>
+
+</CardGrid>
+
+## Docs
+
+<LinkCard
+  href="/commands/list"
+  title="Commands List"
+  description='A list of all the commands available in the Call of Duty Mobile DB Bot.'
+  icon="right-arrow"
+/>
